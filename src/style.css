@@ -1,0 +1,133 @@
+html, body {
+    height: 100%;
+}
+
+h5, h6 {
+    margin-block: 0;
+    margin-inline: 0;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: rgb(227, 184, 72);
+}
+
+.logo {
+    width: 85px;
+    height: 25px;
+    margin-top: 12px;
+    margin-left: 8px;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.main {
+    display: flex;
+    align-items: stretch;
+    flex-grow: 1;
+}
+
+h3 {
+    flex: 0 0 0;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+h2 {
+    margin: 10px;
+}
+
+aside {
+    flex: 0.5 0 0;
+    text-align: center;
+    font-size: medium;
+    padding: 15px;
+}
+
+.aside1 {
+    background-color: lavender;
+}
+
+.aside2 {
+    background-color: palevioletred;
+}
+
+footer {
+    background-color: lightgreen;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex: 2 0 0;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    margin: 10px;
+}
+
+.image {
+    height: 150px;
+    width: 150px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.block {
+    padding: 10px;
+    width: 30%;
+    height: 310px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h4 {
+    font-weight: 600;
+}
+
+h6 {
+    margin: 0;
+    font-weight: 400;
+}
+
+.go {
+    width: 50px;
+    height: 20px;
+    background-color: lightblue;
+    border-radius: 15px;
+    margin-top: auto;
+    line-height: 20px;
+}
+
